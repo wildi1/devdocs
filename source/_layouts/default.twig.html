@@ -27,37 +27,85 @@
 
     <header class="header--main">
 
-        <div class="container clearfix">
-            <!-- LOGO -->
-            <a href="{{ site.url }}/" title="Shopware Developer Documentation" class="logo">
-                <img src="{{ site.url }}/{{ versioned(theme_path('assets/img/logo-devdocs.png')) }}"
-                     data-small-src="{{ site.url }}/{{ versioned(theme_path('assets/img/logo-devdocs-symbol.png')) }}"/>
-            </a>
+        <a href="{{ site.url }}/" title="Shopware Developer Documentation" class="logo">
+            <img src="{{ site.url }}/{{ versioned(theme_path('assets/img/logo-devdocs.png')) }}"
+                 data-small-src="{{ site.url }}/{{ versioned(theme_path('assets/img/logo-devdocs-symbol.png')) }}"/>
+        </a>
 
+    </header>
+
+    <nav class="navi--main">
+
+        <div class="clearfix">
+            <!-- LOGO -->
             <div id="searchBox">
                 <form action="#" method="get">
                     <input type="text" id="search-query" name="q" placeholder="Search" autocomplete="off">
                 </form>
             </div>
 
-            <section id="search-results" style="display: none;">
-                <div class="entries">
-                </div>
-            </section>
         </div>
-    </header>
 
-    <nav class="navi--main">
-        <div class="container">
-            <a href="{{ site.url }}/" class="navi--link"><span>Start</span></a>
-            <a href="{{ site.url }}/sysadmins-guide/" class="navi--link"><span>System Guides</span></a>
-            <a href="{{ site.url }}/developers-guide/" class="navi--link"><span>Developer Guides</span></a>
-            <a href="{{ site.url }}/designers-guide/" class="navi--link"><span>Frontend Guides</span></a>
-            <a href="{{ site.url }}/blog/" class="navi--link"><span>Blog</span></a>
-        </div>
+        <ul>
+            <li class="navi--chapter">
+                <a href="#">Getting started</a>
+
+                <ul>
+                    <li><a href="#">Set up your IDE</a></li>
+                    <li><a href="#">Set up your Shopware installation</a></li>
+                </ul>
+            </li>
+
+            <li class="navi--chapter">
+                <a href="#">Developer's Guide</a>
+
+                <ul>
+                    <li class="navi--chapter">
+                        <a href="#">Developing Plugins</a>
+
+                        <ul class="is--numbered">
+                            <li><a href="#">Plugin quick start guide</a></li>
+                            <li>
+                                <a href="#" class="active">Storefront extensions</a>
+
+                                <ul class="is--bulleted">
+                                    <li><a href="#">Introduction</a></li>
+                                    <li><a href="#">Bootstrap</a></li>
+                                    <li><a href="#">Events</a></li>
+                                    <li><a href="#">ListProductService</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Shopware SearchBundle</a></li>
+                            <li><a href="#">Core service extensions</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="navi--chapter">
+                        <a href="#">General Resources</a>
+
+                        <ul>
+                            <li><a href="#">foo</a></li>
+                            <li><a href="#">bar</a></li>
+                            <li><a href="#">far</a></li>
+                            <li><a href="#">boo</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+
+        </ul>
     </nav>
 
-    <div class="devdocs content container">
+    <div class="devdocs content">
+
+        <section id="search-results" style="display: none;">
+            <h1>Search results for foo</h1>
+
+            <div class="entries">
+            </div>
+        </section>
+
         <div class="inner-container">
 
             <div class="info">
