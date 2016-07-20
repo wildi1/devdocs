@@ -154,8 +154,15 @@ a {
 }
 
 .navi--main {
-    background: #fff;
-    border-bottom: 3px solid @gray02;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 350px;
+    padding-top: 70px;
+    background: @blue06;
 
     > ul > li {
         margin-bottom: 15px;
