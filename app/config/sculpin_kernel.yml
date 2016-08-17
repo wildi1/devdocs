@@ -7,6 +7,11 @@ sculpin_content_types:
          - categories
          - authors
 
+    sysadmin:
+      permalink: sysadmins-guide/:slug_title/
+      path: sysadmins-guide/_docs
+      type: path
+
 sculpin:
     ignore:
         - assets/css/_imports/

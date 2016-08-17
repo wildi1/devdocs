@@ -3,6 +3,8 @@ layout: default
 title: Shopware 5 Update Guide
 github_link: sysadmins-guide/update-guide/index.md
 indexed: true
+redirect:
+  - sysadmins-guide/update-guide/
 ---
 
 ## Updating to Shopware 5
@@ -15,27 +17,27 @@ Shopware 5 features a redesigned update tool. If you updated a Shopware installa
    <p>Check the <a href="/developers-guide/shopware-5-upgrade-guide-for-developers/">Shopware 5 Upgrade guide for developers</a> page for more information on system requirements changes from Shopware 4 to 5</p>
 </div>
 
-![Start](screen-update-step1.png)
+![Start](img/screen-update-step1.png)
 
 In the welcome step, you can choose the language you wish to use during the update process. After that, the update tool will take you to the System requirements step, where it will check that your file system permissions are correctly configured. You might be required to configure them manually.
 
-![Requirements check](screen-update-step2.png)
+![Requirements check](img/screen-update-step2.png)
 
 If your system already has the correct file system permissions, or once you finish configuring them, you will be taken to the database update step
 
-![Database](screen-update-step3-start.png)
+![Database](img/screen-update-step3-start.png)
 
 This step will first update your database structure and content, and then update the snippets. It can take a few minutes. A progress bar will indicate the current state for each of the two tasks.
 
-![Database update](screen-update-step3-progress.png)
+![Database update](img/screen-update-step3-progress.png)
 
 After your database has been updated, the update tool will display a list of Shopware files that are no longer needed. After you confirm, the update tool will attempt to delete them. In case this is not possible, you will be informed, so you can manually delete them later.
 
-![File cleanup](screen-update-step4.png)
+![File cleanup](img/screen-update-step4.png)
 
 Once the update process is finished, you will be asked to manually delete the `/update-assets`. Once you do that, your shop will once again be available.
 
-![Finish](screen-update-step5.png)
+![Finish](img/screen-update-step5.png)
 
 
 ## Configuring your updated shop

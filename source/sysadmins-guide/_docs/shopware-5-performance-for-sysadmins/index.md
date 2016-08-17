@@ -12,6 +12,7 @@ tags:
   - cache
 redirect:
   - /sysadmins-guide/optimize-performance/
+  - /sysadmins-guide/shopware-5-performance-for-sysadmins/
 ---
 
 In this document we detail performance related settings that you can set in your server to get the most out of it. Some of them were already part of previous Shopware releases, which we complemented with new addictions, for optimized performance and scalability. In most cases, it's assumed that you have already installed and configured Shopware on your server, and that it's running properly. This document does not cover configuration options *needed* by Shopware (for example, increasing PHP's `memory_limit` to an acceptable level), and focus only on making an already working system perform better.

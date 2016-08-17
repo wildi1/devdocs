@@ -30,7 +30,7 @@ varnish server or appserver on the fly once your shop is confronted with more tr
 
 ## Shopware cluster setup
 The following schema shows a simplified cluster setup. The components will be discussed in detail below.
-![server setup overview](/sysadmins-guide/shopware-cluster-setup/img/setup.svg)
+![server setup overview](img/cluster_setup.svg)
 
 ### Load Balancer (LB)
 The load balancer is the foremost instance in every cluster setup. It will handle all customer requests and dispatch
