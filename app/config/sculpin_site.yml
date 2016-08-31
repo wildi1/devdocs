@@ -73,3 +73,21 @@ authors:
       title: Developer
       twitter: https://twitter.com/klarstil
       github: https://github.com/klarstil
+
+docs:
+    -
+        name: Installation Guide
+        url: sysadmins-guide/installation-guide/
+    -
+        name: Update Guide
+        url: sysadmins-guide/update-guide/
+    -
+        name: Pefromance guide for system administrators
+        url: sysadmins-guide/shopware-5-performance-for-sysadmins/
+        children:
+            -
+                name: Elasticsearch setup
+                url: /sysadmins-guide/elasticsearch-setup/
+            -
+                name: Memcached as a session handler
+                url: /sysadmins-guide/memcached-as-session-handler/

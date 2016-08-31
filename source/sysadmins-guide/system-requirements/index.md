@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: doc
 title: System Requirements
 github_link: sysadmins-guide/system-requirements/index.md
 indexed: true
